@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    
+    <body>
+        
+        <header class="navbar">
+        
+            <div class="logo">Campus Doubt Board</div>
+            <div class="user-info">
+        
+                <span class="karma-badge">Karma: <strong>45</strong></span>
+                <span class="user-name">Student name</span>
+            
+            </div>
+        
+        </header>
+
+        <main class="container">
+            
+            <section class="actions-bar">
+            
+                <input type="text" id="searchInput" placeholder="Search doubts by keyword or course..." />
+                <button id="askBtn" class="btn-primary">+ Ask a Doubt</button>
+            
+            </section>
+
+            <section class="filter-tabs">
+
+                <button class="tab active" data-filter="all">All Courses</button>
+                <button class="tab" data-filter="CPS">CPS</button>
+                <button class="tab" data-filter="CALCULAS">CALCULAS</button>
+                <button class="tab" data-filter="EEE">EEE</button>
+            
+            </section>
+
+            <div class="doubts-list">
+                <article class="doubt-card resolved">
+                    <div class="card-header">
+                        <span class="badge course">CPS</span>
+                        <span class="badge status resolved">Resolved </span>
+                    </div>
+                    <h3>How does recursion base case prevent stack overflow?</h3>
+                    <p class="card-snippet">Why recursion over loop?</p>
+                    <div class="card-footer">
+                        <span class="author">Asked by: Anonymous</span>
+                        <span class="answers-count"> 3 Answers</span>
+                    </div>
+                </article>
+
+                <article class="doubt-card">
+                    <div class="card-header">
+                        <span class="badge course">CALCULAS</span>
+                        <span class="badge status open">Open</span>
+                    </div>
+
+                    <h3>GREEN THEOREM WILL COME I EXAM?</h3>
+
+                    <p class="card-snippet">can anyone send 5 question answer?</p>
+                    
+                    <div class="card-footer">
+
+                        <span class="author">Asked by: Anonymous</span>
+                        <span class="answers-count">1 Answer</span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </main>
+
+    </body>
+
+</html>
